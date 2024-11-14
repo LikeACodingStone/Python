@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AesRun</class>
+ <widget class="QWidget" name="AesRun">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(155, 163, 214);</string>
+  </property>
+  <widget class="QPushButton" name="btnLoadKey">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(97, 205, 255);
+font: 20pt &quot;新宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选择KEY</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtKey">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>80</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(128, 161, 166);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLoadFile">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>190</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(97, 205, 255);
+font: 20pt &quot;新宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选择FILE</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtFile">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>190</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(128, 161, 166);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAesRun">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>330</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(97, 205, 255);
+font: 22pt &quot;新宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>封印</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelOrigin">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>330</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(97, 205, 255);
+font: 20pt &quot;新宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>删除原文件</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblSmile">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>330</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(110, 200, 197);
+font: 20pt &quot;新宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Smile&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(62, 170, 200);</string>
+  </property>
+  <widget class="QPushButton" name="btnDir">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(80, 185, 255);
+font: 22pt &quot;Sitka Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选择路径</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtDir">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>110</y>
+     <width>431</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Kalam Light&quot;;
+background-color: rgb(117, 207, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnStart">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>200</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(80, 185, 255);
+font: 22pt &quot;Sitka Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>开始转换</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDel">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>200</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(80, 185, 255);
+font: 22pt &quot;Sitka Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>删除丑陋</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>200</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(80, 185, 255);
+font: 22pt &quot;Sitka Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(62, 150, 200);
+font: 18pt &quot;Juice ITC&quot;;</string>
+   </property>
+   <property name="text">
+    <string> 丑陋的网易云音乐ncm文件解码</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="pdtShow">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>290</y>
+     <width>631</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(117, 207, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnQuit">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>30</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(80, 185, 255);
+font: 22pt &quot;Sitka Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

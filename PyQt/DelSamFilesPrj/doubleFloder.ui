@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>doubleForm</class>
+ <widget class="QWidget" name="doubleForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1230</width>
+    <height>847</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#808A87;</string>
+  </property>
+  <widget class="QPushButton" name="btnFileA">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F0FFFF;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Select File A</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnFileB">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F0FFFF;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Select File B</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtFileA">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>901</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(183, 209, 255);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtFileB">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>120</y>
+     <width>901</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(183, 209, 255);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDetect">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #00FF00;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Detect</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelSel">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #FF0000;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>删除选中</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelA">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#FFE384;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Delte In A</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelB">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #B0E0E6;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Delete In B</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tvShow">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>1101</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(153, 153, 115);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

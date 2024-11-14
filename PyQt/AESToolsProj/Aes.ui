@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AesForm</class>
+ <widget class="QWidget" name="AesForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>767</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(200, 51, 99);</string>
+  </property>
+  <widget class="QPushButton" name="btnAes">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>200</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(17, 172, 255);
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>加密</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnKey">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>100</y>
+     <width>221</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;生成KEY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(17, 172, 255);
+font: 26pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>生成KEY</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDes">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>200</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(17, 172, 255);
+font: 24pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>解密</string>
+   </property>
+  </widget>
+  <widget class="QDial" name="dial">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>190</y>
+     <width>161</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtKey">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>310</y>
+     <width>221</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(123, 244, 255);
+font: 22pt &quot;微软雅黑&quot;;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+[tool.briefcase]
+project_name = "My Project"
+bundle = "com.example"
+version = "0.1"
+
+[tool.briefcase.app.myapp]
+formal_name = "My_App"
+description = "My first Briefcase App"
+sources = ['myapp']
+license = "MIT"
