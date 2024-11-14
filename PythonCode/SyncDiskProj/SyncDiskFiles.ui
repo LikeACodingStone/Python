@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#808A87;</string>
+  </property>
+  <widget class="QPushButton" name="btnFileA">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F0FFFF;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Select File A</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnFileB">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F0FFFF;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Select File B</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtFileA">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>731</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(183, 209, 255);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtFileB">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>120</y>
+     <width>731</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(183, 209, 255);
+font: 16pt &quot;宋体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="pdtInfo">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>280</y>
+     <width>921</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(210, 213, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSyncBoth">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #00FF00;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sync Both</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnStop">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #FF0000;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Stop Sync</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSyncAToB">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#FFE384;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sync A To B</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSyncBToA">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #B0E0E6;
+font: 12pt &quot;仿宋&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sync B to A</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
