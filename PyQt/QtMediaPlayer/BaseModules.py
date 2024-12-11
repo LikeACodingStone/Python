@@ -3,6 +3,12 @@ import configparser
 import pygame
 import time
 import threading
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox, QButtonGroup
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from Ui_PlayerWeight import Ui_FreePlayer
+from PyQt5.QtCore import pyqtSignal, QObject
 
 def GetCurrentFolder():
     current_file_path = os.path.abspath(__file__)
@@ -27,6 +33,7 @@ class ConfigParseHandle:
         self.style_popular = "Popular"
         self.style_punk = "Punk"
         self.style_country = "Country"
+        self.style_solo = "Solo"
 
         self.key_style_name = "STYLE_NAME"
         self.key_media_index = "MEDIA_INDEX"
@@ -64,6 +71,9 @@ class ConfigParseHandle:
             return self._media_root_val + os.sep + self._configPr["FOLDER_11"][self.key_style_name]
         if style == "country":
             return self._media_root_val + os.sep + self._configPr["FOLDER_5"][self.key_style_name]
+        if style == "solo":
+            return self._media_root_val + os.sep + self._configPr["FOLDER_12"][self.key_style_name]
+        
     def setMediaIndex(self, index):
         self._configPr.set(self._folder_section, self.key_media_index, str(index))
         with open(self._config_path, 'w', encoding='utf-8', errors='ignore') as configfile:
@@ -100,17 +110,34 @@ class ConfigModuleHandle:
     def __init__(self, config):
         self._config = config
         self.key_config = "GENERAL"
-        self.key_random = "random_mode"
+        self.key_random = "random_list_mode"
         self.key_play_only = "play_only"
         self._configPr = configparser.ConfigParser()
         self._config_path = GetCurrentFolder() + os.sep + config
         self._configPr.read(self._config_path)
-        self._random_mode = self._configPr[self.key_config][self.key_random]
-        self._play_only_mode = self._configPr[self.key_config][self.key_play_only]
+        self._random_mode = int(self._configPr[self.key_config][self.key_random])
+        self._play_only_mode = int(self._configPr[self.key_config][self.key_play_only])
     def getRandomMode(self):
         return self._random_mode
     def getPlayOnlyMode(self):
         return self._play_only_mode
+    
+class MainWindow(QtWidgets.QMainWindow):
+    def __init__(self, widthVal, heightVal):
+        super().__init__()
+        self.setWindowFlags(Qt.Window | Qt.FramelessWindowHint)
+        self.setFixedSize(int(widthVal), int(heightVal))
+        self.setStyleSheet("background-color: rgb(125, 168, 232)")
+        
+    def mousePressEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self.oldPos = event.globalPos()
+        
+    def mouseMoveEvent(self, event):
+        if event.buttons() == Qt.LeftButton:
+            delta = event.globalPos() - self.oldPos
+            self.move(self.pos() + delta)
+            self.oldPos = event.globalPos()
     
 
         

@@ -86,6 +86,8 @@ class AddDeleteBySdCard:
                     self.cfgHandle.getStyleFolder("punk")}
         countryDict = {self.cfgHandle._abs_config_folder + os.sep + self.cfgHandle.style_country + ".txt":
                     self.cfgHandle.getStyleFolder("country")}
+        soloDict = {self.cfgHandle._abs_config_folder + os.sep + self.cfgHandle.style_solo + ".txt":
+                    self.cfgHandle.getStyleFolder("solo")}
 
         dictList = []
         dictList.append(bluesDict)
@@ -94,6 +96,7 @@ class AddDeleteBySdCard:
         dictList.append(popDict)
         dictList.append(punkDict)
         dictList.append(countryDict)
+        dictList.append(soloDict)
         
         for dict in dictList:
             for key, val in dict.items():

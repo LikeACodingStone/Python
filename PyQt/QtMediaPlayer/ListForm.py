@@ -3,80 +3,23 @@ import re, time
 import threading
 import configparser
 from datetime import datetime
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox, QButtonGroup
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from Ui_PlayerWeight import Ui_FreePlayer
+from PyQt5.QtCore import pyqtSignal, QObject
 import pygame
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
-from BaseModules import ConfigParseHandle, GetCurrentFolder
+from BaseModules import ConfigParseHandle, GetCurrentFolder, MainWindow
+from AudioPlayer import AudioPlayer, Communicator
 
 def GetMediaByIndex(playList, mediaIndex):
     filePath = playList[mediaIndex]
     mediName = filePath.split("\\")[-1]
     return mediName
-
-class AudioPlayer:
-    def __init__(self, playlist, mediaIndex):
-        pygame.init()
-        pygame.mixer.init()
-        self.playlist = playlist
-        self.current_index = mediaIndex
-        self.is_paused = False
-        self.is_playing = False
-        self.end_event = pygame.USEREVENT + 1
-        pygame.mixer.music.set_endevent(self.end_event)
-
-        devices = AudioUtilities.GetSpeakers()
-        interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
-        volume = cast(interface, POINTER(IAudioEndpointVolume))
-        system_volume = volume.GetMasterVolumeLevelScalar()
-        pygame_volume = system_volume * 0.2
-        pygame.mixer.music.set_volume(pygame_volume)
-
-    def play_audio(self):
-        if self.current_index >= len(self.playlist):
-            return
-        file_path = self.playlist[self.current_index]
-        if file_path.endswith(".wma"):
-            pass
-        else:
-            pygame.mixer.music.load(file_path)
-            pygame.mixer.music.play()
-        self.is_playing = True
-
-        UpdateConfig()
-        ui.lineEdit.setText(GetMediaByIndex(g_playList ,g_audio_player.current_index))
-
-    def handle_events(self):
-        for event in pygame.event.get():
-            if event.type == self.end_event:
-                self.current_index += 1
-                self.play_audio()   
-    
-    def pause_audio(self):
-        if not self.is_paused:
-            pygame.mixer.music.pause()
-            self.is_paused = True
-            self.is_playing = False    
-
-    def resume_audio(self):
-        if self.is_paused:
-            pygame.mixer.music.unpause()
-            self.is_paused = False
-            self.is_playing = True
-
-    def run(self):
-        self.play_audio()
-        while self.current_index < len(self.playlist):
-            self.handle_events()
-            time.sleep(0.1)
-        self.is_playing = False
-
 
 def player_thread(player):
     player.run()
@@ -137,6 +80,11 @@ def SlotBtnHardRock():
     GenerateTypeFiles(g_config_parse.style_hardRock)
 
 @pyqtSlot()
+def SlotBtnSolo():
+    global g_config_parse
+    GenerateTypeFiles(g_config_parse.style_solo)
+
+@pyqtSlot()
 def SlotNextSong():
     global g_audio_player
     global g_playList
@@ -149,6 +97,17 @@ def SlotPreSong():
     global g_playList
     g_audio_player.current_index -= 1
     g_audio_player.play_audio()
+
+@pyqtSlot()
+def SlotBtnExit():
+    g_audio_player.is_quit = True
+    QApplication.quit()
+    sys.exit(0)
+
+@pyqtSlot()
+def SlotHandleNext():
+    UpdateConfig()
+    ui.lineEdit.setText(GetMediaByIndex(g_playList ,g_audio_player.current_index))
 
 def GenerateTypeFiles(type):
     type_file = type + ".txt"
@@ -181,12 +140,11 @@ def GetIniList():
                 playList.append(play_file)
     return playList, g_config_parse._media_folder_val, int(g_config_parse._media_index_val)
 
-
 if __name__ == '__main__':
     CONFIG = "config.ini"
     g_config_parse = ConfigParseHandle(CONFIG)
     app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
+    MainWindow = MainWindow(388,85)
     ui = Ui_FreePlayer()
     ui.setupUi(MainWindow)
     ui.btnPlay.clicked.connect(SlotPlay)
@@ -198,13 +156,17 @@ if __name__ == '__main__':
     ui.btnHard.clicked.connect(SlotBtnHardRock)
     ui.btnPunk.clicked.connect(SlotBtnPunk)
     ui.btnPop.clicked.connect(SlotBtnPop)
+    ui.btnSolo.clicked.connect(SlotBtnSolo)
     ui.btnNext.clicked.connect(SlotNextSong)
     ui.btnPre.clicked.connect(SlotPreSong)
+    ui.btnExit.clicked.connect(SlotBtnExit)
     g_playList = []
     g_mediaIndex = -1
     g_folderIndex = -1
     g_playList, g_folderIndex, g_mediaIndex = GetIniList()
-    g_audio_player = AudioPlayer(g_playList, g_mediaIndex)
+    communicator = Communicator()
+    g_audio_player = AudioPlayer(g_playList, g_mediaIndex, communicator)
     ui.lineEdit.setText(GetMediaByIndex(g_playList, g_mediaIndex))
+    communicator.update_signal.connect(SlotHandleNext)
     MainWindow.show()
     sys.exit(app.exec_())
