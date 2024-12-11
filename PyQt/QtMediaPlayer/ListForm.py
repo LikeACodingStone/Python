@@ -85,6 +85,11 @@ def SlotBtnSolo():
     GenerateTypeFiles(g_config_parse.style_solo)
 
 @pyqtSlot()
+def SlotBtnJapanese():
+    global g_config_parse
+    GenerateTypeFiles(g_config_parse.style_japan)
+
+@pyqtSlot()
 def SlotNextSong():
     global g_audio_player
     global g_playList
@@ -157,6 +162,7 @@ if __name__ == '__main__':
     ui.btnPunk.clicked.connect(SlotBtnPunk)
     ui.btnPop.clicked.connect(SlotBtnPop)
     ui.btnSolo.clicked.connect(SlotBtnSolo)
+    ui.btnJapan.clicked.connect(SlotBtnJapanese)
     ui.btnNext.clicked.connect(SlotNextSong)
     ui.btnPre.clicked.connect(SlotPreSong)
     ui.btnExit.clicked.connect(SlotBtnExit)
@@ -165,6 +171,8 @@ if __name__ == '__main__':
     g_folderIndex = -1
     g_playList, g_folderIndex, g_mediaIndex = GetIniList()
     communicator = Communicator()
+    if g_mediaIndex >= len(g_playList):
+        g_mediaIndex = 0
     g_audio_player = AudioPlayer(g_playList, g_mediaIndex, communicator)
     ui.lineEdit.setText(GetMediaByIndex(g_playList, g_mediaIndex))
     communicator.update_signal.connect(SlotHandleNext)

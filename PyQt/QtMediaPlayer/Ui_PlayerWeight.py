@@ -15,7 +15,7 @@ class Ui_FreePlayer(object):
     def setupUi(self, FreePlayer):
         FreePlayer.setObjectName("FreePlayer")
         FreePlayer.resize(388, 84)
-        FreePlayer.setStyleSheet("background-color: rgb(0, 111, 162);")
+        FreePlayer.setStyleSheet("background: rgb(0, 111, 162);")
         self.PyPlayer = QtWidgets.QWidget(FreePlayer)
         self.PyPlayer.setObjectName("PyPlayer")
         self.btnPlay = QtWidgets.QPushButton(self.PyPlayer)
@@ -64,9 +64,9 @@ class Ui_FreePlayer(object):
         self.btnExit = QtWidgets.QPushButton(self.PyPlayer)
         self.btnExit.setGeometry(QtCore.QRect(350, 50, 36, 31))
         self.btnExit.setObjectName("btnExit")
-        self.btnHard_2 = QtWidgets.QPushButton(self.PyPlayer)
-        self.btnHard_2.setGeometry(QtCore.QRect(310, 50, 31, 31))
-        self.btnHard_2.setObjectName("btnHard_2")
+        self.btnJapan = QtWidgets.QPushButton(self.PyPlayer)
+        self.btnJapan.setGeometry(QtCore.QRect(310, 50, 31, 31))
+        self.btnJapan.setObjectName("btnJapan")
         FreePlayer.setCentralWidget(self.PyPlayer)
 
         self.retranslateUi(FreePlayer)
@@ -88,4 +88,4 @@ class Ui_FreePlayer(object):
         self.btnNext.setText(_translate("FreePlayer", ">>"))
         self.btnSolo.setText(_translate("FreePlayer", "SOLO"))
         self.btnExit.setText(_translate("FreePlayer", "EXIT"))
-        self.btnHard_2.setText(_translate("FreePlayer", "JP"))
+        self.btnJapan.setText(_translate("FreePlayer", "JP"))

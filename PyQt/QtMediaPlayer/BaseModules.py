@@ -34,6 +34,7 @@ class ConfigParseHandle:
         self.style_punk = "Punk"
         self.style_country = "Country"
         self.style_solo = "Solo"
+        self.style_japan = "Japanese"
 
         self.key_style_name = "STYLE_NAME"
         self.key_media_index = "MEDIA_INDEX"
@@ -49,9 +50,6 @@ class ConfigParseHandle:
         self._folder_section = self.key_folder + self._configPr[self.key_config][self.key_folder_index]
         self._media_folder_val = self._media_root_val + os.sep + self._configPr[self._folder_section][self.key_style_name]
         self._media_index_val = self._configPr[self._folder_section][self.key_media_index]
-
-        # self._srand_mode = self._configPr[self._folder_section][self.key_srand_mode]
-        # self._clear_mode = self._configPr[self._folder_section][self.key_clear_mode]
 
         self._abs_config_folder = GetCurrentFolder() + os.sep + self._configPr[self.key_config][self.key_config_folder] 
         if not os.path.exists(self._abs_config_folder):
@@ -73,6 +71,8 @@ class ConfigParseHandle:
             return self._media_root_val + os.sep + self._configPr["FOLDER_5"][self.key_style_name]
         if style == "solo":
             return self._media_root_val + os.sep + self._configPr["FOLDER_12"][self.key_style_name]
+        if style == "japanese":
+            return self._media_root_val + os.sep + self._configPr["FOLDER_8"][self.key_style_name]
         
     def setMediaIndex(self, index):
         self._configPr.set(self._folder_section, self.key_media_index, str(index))

@@ -35,7 +35,7 @@ class AudioPlayer(QObject):
 
     def play_audio(self):
         if self.current_index >= self.listLength:
-            return
+            self.current_index = 0
         file_path = self.playlist[self.current_index]
         if file_path.endswith(".wma"):
             pass
