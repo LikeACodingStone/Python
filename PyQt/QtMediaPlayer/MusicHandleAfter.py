@@ -121,7 +121,7 @@ class AddDeleteBySdCard:
 
 addDelete = AddDeleteBySdCard()
 
-#addDelete.RunAddToDeleteTXT()
+addDelete.RunAddToDeleteTXT()
 
 addDelete.ClearDeleteTxtAndDeleteFiles()
 addDelete.ClassificationStyles()

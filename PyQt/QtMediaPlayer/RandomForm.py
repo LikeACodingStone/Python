@@ -1,4 +1,4 @@
-import os,sys
+import os,sys, ctypes
 import re, time
 import threading
 import configparser
@@ -72,7 +72,6 @@ def SlotBtnExit():
 
 @pyqtSlot()
 def SlotHandleNext():
-    UpdateConfig()
     ui.lineEdit.setText(GetMediaByIndex(g_playList ,g_audio_player.current_index))
 
 def GenerateDeletFiles():
@@ -81,11 +80,6 @@ def GenerateDeletFiles():
     global g_config_parse
     fileNameContent = g_playList[g_audio_player.current_index]
     g_config_parse.AddDeleteFileList(fileNameContent)
-
-def UpdateConfig():
-    global g_audio_player
-    global g_config_parse
-    g_config_parse.setMediaIndex(g_audio_player.current_index)
 
 def GetIniList():
     global g_config_parse
@@ -98,6 +92,8 @@ def GetIniList():
     return playList
 
 if __name__ == '__main__':
+    if sys.platform == "win32":
+        ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
     CONFIG = "config.ini"
     g_config_parse = ConfigParseHandle(CONFIG)
     CONFIG_MODE = "config_modules.ini"

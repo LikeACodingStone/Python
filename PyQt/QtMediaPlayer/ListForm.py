@@ -1,4 +1,4 @@
-import os,sys
+import os,sys, ctypes
 import re, time
 import threading
 import configparser
@@ -146,6 +146,8 @@ def GetIniList():
     return playList, g_config_parse._media_folder_val, int(g_config_parse._media_index_val)
 
 if __name__ == '__main__':
+    if sys.platform == "win32":
+        ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
     CONFIG = "config.ini"
     g_config_parse = ConfigParseHandle(CONFIG)
     app = QtWidgets.QApplication(sys.argv)
