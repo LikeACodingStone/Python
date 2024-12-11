@@ -30,6 +30,9 @@ class ConfigParseHandle:
 
         self.key_style_name = "STYLE_NAME"
         self.key_media_index = "MEDIA_INDEX"
+
+        self.key_srand_mode = "srand_mode"
+        self.key_clear_mode = "clear_mode"
      
         self._configPr = configparser.ConfigParser()
         self._config_path = GetCurrentFolder() + os.sep + config
@@ -39,6 +42,9 @@ class ConfigParseHandle:
         self._folder_section = self.key_folder + self._configPr[self.key_config][self.key_folder_index]
         self._media_folder_val = self._media_root_val + os.sep + self._configPr[self._folder_section][self.key_style_name]
         self._media_index_val = self._configPr[self._folder_section][self.key_media_index]
+
+        # self._srand_mode = self._configPr[self._folder_section][self.key_srand_mode]
+        # self._clear_mode = self._configPr[self._folder_section][self.key_clear_mode]
 
         self._abs_config_folder = GetCurrentFolder() + os.sep + self._configPr[self.key_config][self.key_config_folder] 
         if not os.path.exists(self._abs_config_folder):
@@ -90,43 +96,21 @@ class ConfigParseHandle:
                 file.write("\n")
                 file.close()
 
-# class AudioPlayer:
-#     def __init__(self):
-#         pygame.init()
-#         pygame.mixer.init()
-#         self.end_event = pygame.USEREVENT + 1
-#         pygame.mixer.music.set_endevent(self.end_event)
-#         thread = threading.Thread(target=self.PlayingHandleThread)
-#         thread.start()
-
-#     def PlayingHandleThread(self):
-#         while True:
-#             pass
-
-#     def play_audio(self):
-#         pass
-
-#     def handle_events(self):
-#         for event in pygame.event.get():
-#             if event.type == self.end_event:
-#                 self.current_index += 1
-#                 self.play_audio()   
+class ConfigModuleHandle:
+    def __init__(self, config):
+        self._config = config
+        self.key_config = "GENERAL"
+        self.key_random = "random_mode"
+        self.key_play_only = "play_only"
+        self._configPr = configparser.ConfigParser()
+        self._config_path = GetCurrentFolder() + os.sep + config
+        self._configPr.read(self._config_path)
+        self._random_mode = self._configPr[self.key_config][self.key_random]
+        self._play_only_mode = self._configPr[self.key_config][self.key_play_only]
+    def getRandomMode(self):
+        return self._random_mode
+    def getPlayOnlyMode(self):
+        return self._play_only_mode
     
-#     def pause_audio(self):
-#         if not self.is_paused:
-#             pygame.mixer.music.pause()
-#             self.is_paused = True
-#             self.is_playing = False    
 
-#     def resume_audio(self):
-#         if self.is_paused:
-#             pygame.mixer.music.unpause()
-#             self.is_paused = False
-#             self.is_playing = True
-
-#     def run(self):
-#         self.play_audio()
-#         while self.current_index < len(self.playlist):
-#             self.handle_events()
-#             time.sleep(0.1)
-#         self.is_playing = False
+        

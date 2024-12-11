@@ -10,6 +10,9 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from Ui_PlayerWeight import Ui_FreePlayer
 import pygame
+from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+from ctypes import cast, POINTER
+from comtypes import CLSCTX_ALL
 from BaseModules import ConfigParseHandle, GetCurrentFolder
 
 def GetMediaByIndex(playList, mediaIndex):
@@ -27,6 +30,13 @@ class AudioPlayer:
         self.is_playing = False
         self.end_event = pygame.USEREVENT + 1
         pygame.mixer.music.set_endevent(self.end_event)
+
+        devices = AudioUtilities.GetSpeakers()
+        interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
+        volume = cast(interface, POINTER(IAudioEndpointVolume))
+        system_volume = volume.GetMasterVolumeLevelScalar()
+        pygame_volume = system_volume * 0.2
+        pygame.mixer.music.set_volume(pygame_volume)
 
     def play_audio(self):
         if self.current_index >= len(self.playlist):
@@ -166,8 +176,9 @@ def GetIniList():
     playList = []
     for root, dirs, files in os.walk(g_config_parse._media_folder_val):
         for file in files:
-            play_file = root + os.sep + file
-            playList.append(play_file)
+            if not file.endswith(".wma"):
+                play_file = root + os.sep + file
+                playList.append(play_file)
     return playList, g_config_parse._media_folder_val, int(g_config_parse._media_index_val)
 
 
