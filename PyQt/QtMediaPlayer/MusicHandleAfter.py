@@ -64,8 +64,10 @@ class AddDeleteBySdCard:
             allLines = fp.readlines()
             for line in allLines:
                 lineVal = line.strip()
-                os.remove(lineVal)
                 print(lineVal)
+                if len(lineVal) > 5:
+                    os.remove(lineVal)
+             
         
         current_time = datetime.now()
         str_file_date =  str(current_time.year) +  "_" + str(current_time.month) +  "_" + \
@@ -121,7 +123,7 @@ class AddDeleteBySdCard:
 
 addDelete = AddDeleteBySdCard()
 
-addDelete.RunAddToDeleteTXT()
+#addDelete.RunAddToDeleteTXT()
 
 addDelete.ClearDeleteTxtAndDeleteFiles()
 addDelete.ClassificationStyles()

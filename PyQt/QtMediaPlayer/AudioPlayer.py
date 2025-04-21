@@ -27,7 +27,7 @@ class AudioPlayer(QObject):
         interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
         volume = cast(interface, POINTER(IAudioEndpointVolume))
         system_volume = volume.GetMasterVolumeLevelScalar()
-        pygame_volume = system_volume * 0.2
+        pygame_volume = system_volume * 0.4
         pygame.mixer.music.set_volume(pygame_volume)
         self.communicator = communicator
 

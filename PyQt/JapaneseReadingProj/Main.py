@@ -16,6 +16,7 @@ from PyQt5.QtGui import *
 import shutil
 from Ui_ReadJapanese import Ui_MainWindow
 from PyTTSInterface import PyTTSInterface
+from ReadSentence import combined_dict
 
 #pyinstaller -F -w -i kent.ico  SyncTwoDiskFiles.py	
 
@@ -86,10 +87,52 @@ def ChangeContext(file):
         keyArray.append(key)
         if len(val) > 18:
             val = val[0:18]
-        contArray.append(val)
-    
-global selectNum 
+        contArray.append(val) 
+
+global selectNum
 global selectId
+global keepList
+global pkeepIndex
+
+def getRandomNum():
+    global selectNum 
+    global selectId
+    global pageSize
+    global keyArray
+    global contArray
+    global keepList
+    global pkeepIndex
+
+    nums = list(range(0, pageSize))
+    randomNums = random.sample(nums, 6)
+    selectId = random.randint(0, 5)
+    selectNum = randomNums[selectId]
+    return randomNums, selectNum
+
+def getValidRandomNum():
+    global selectNum 
+    global selectId
+    global pageSize
+    global keepList
+    global pkeepIndex
+
+    while True:
+        # 生成随机数组和 selectNum
+        nums = list(range(0, pageSize))
+        randomNums = random.sample(nums, 6)
+        selectId = random.randint(0, 5)
+        selectNum = randomNums[selectId]
+
+        # 检查 selectNum 是否在最近的 keepList 中
+        if selectNum not in keepList:
+            # 更新 keepList，确保只保留最近的 10 个值
+            if len(keepList) < 20:
+                keepList.append(selectNum)
+            else:
+                keepList[pkeepIndex % 20] = selectNum
+                pkeepIndex += 1
+            return randomNums, selectNum
+    
 @pyqtSlot()
 def Reflesh(ui):
     global pageSize
@@ -97,15 +140,30 @@ def Reflesh(ui):
     global selectId
     global keyArray
     global contArray
+    global keepList
+    global pkeepIndex
+
+    # nums = list(range(0, pageSize))
+    # randomNums = random.sample(nums, 6)
+    # selectId = random.randint(0, 5)
+    # selectNum = randomNums[selectId]
+    # if pkeepIndex < 10:
+    #     keepList.append(selectNum)
+    #     pkeepIndex += 1
+    # else:
+    #     index = pkeepIndex % 10
+    #     keepList[index] = selectNum
+    #     pkeepIndex += 1
     
-    # 生成0到pageSize-1的数字列表
-    nums = list(range(0, pageSize))
-    # 随机选择6个不重复的数字
-    randomNums = random.sample(nums, 6)
-    # 从这6个数字中选择一个作为正确答案
-    selectId = random.randint(0, 5)  # 0-5之间随机选择一个按钮位置
-    selectNum = randomNums[selectId]  # 使用选中的按钮位置对应的随机数
-    
+    # for value in keepList:
+    #     if value == selectNum:
+    #         nums = list(range(0, pageSize))
+    #         randomNums = random.sample(nums, 6)
+    #         selectId = random.randint(0, 5)
+    #         selectNum = randomNums[selectId]
+    #         break
+    randomNums, selectNum = getValidRandomNum()
+
     showBtnArray = []
     showTextArray = []
     if not btnChineMode:
@@ -115,7 +173,6 @@ def Reflesh(ui):
         showBtnArray = contArray
         showTextArray = keyArray
         
-    # 设置按钮文本
     ui.pushButton_1.setText(showBtnArray[randomNums[0]])
     ui.pushButton_2.setText(showBtnArray[randomNums[1]])
     ui.pushButton_3.setText(showBtnArray[randomNums[2]])
@@ -123,7 +180,6 @@ def Reflesh(ui):
     ui.pushButton_5.setText(showBtnArray[randomNums[4]])
     ui.pushButton_6.setText(showBtnArray[randomNums[5]])
     
-    # selectId需要加1以匹配buttonGroup的ID（它们是从1开始的）
     selectId += 1
     
     if btnChineMode:
@@ -264,14 +320,13 @@ if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     
-    # 修改这里的窗口标志设置
-    MainWindow.setWindowFlags(Qt.Window | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
+    MainWindow.setWindowFlags(Qt.Window | Qt.FramelessWindowHint)
     MainWindow.setAttribute(Qt.WA_TranslucentBackground)
     
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
 
-    # 添加一个关闭按钮（可选）
+    # 添加关闭按钮
     closeButton = QPushButton("×", MainWindow)
     closeButton.setGeometry(MainWindow.width() - 30, 0, 30, 30)
     closeButton.clicked.connect(MainWindow.close)
@@ -288,6 +343,46 @@ if __name__ == '__main__':
         }
     """)
 
+    # 添加播放按钮，调整位置和样式
+    def replayAudio():
+        global selectNum, keyArray, contArray, btnChineMode
+        if btnChineMode:
+            showTextArray = keyArray
+            ttsText = ""
+            if "|" in showTextArray[selectNum]:
+                ttsText = showTextArray[selectNum].split("|")[0]
+            else: 
+                ttsText = showTextArray[selectNum]
+            # replaceList = ["③", "◎", "①", "②", "④"]
+            # for trRp in replaceList:
+            #     ttsText = ttsText.replace(trRp,"")
+            try:
+                ttsText = ttsText.strip()
+                ttsSentence = combined_dict[ttsText]
+                print(ttsText, ttsSentence)
+                jpTTS.playAudioCont(ttsSentence)
+            except Exception as e:
+                print(f"Error playing audio sentence: {str(e)}")
+
+    playButton = QPushButton("▶", MainWindow)
+    playButton.setGeometry(0, 0, 30, 30)
+    playButton.setStyleSheet("""
+        QPushButton {
+            background-color: transparent;
+            color: black;
+            font-size: 20px;
+            border: none;
+            padding-left: 2px;
+            padding-top: 0px;
+        }
+        QPushButton:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+    """)
+    
+    playButton.clicked.connect(replayAudio)
+
     # 添加窗口拖动功能
     class MainWindowDraggable(QtWidgets.QMainWindow):
         def mousePressEvent(self, event):
@@ -303,6 +398,8 @@ if __name__ == '__main__':
     # 应用拖动功能
     MainWindow.__class__ = MainWindowDraggable
 
+    keepList = []
+    pkeepIndex = 0
     btnChineMode = True
     font = QFont("SimHei")
     ui.pushButton_1.setFont(font)

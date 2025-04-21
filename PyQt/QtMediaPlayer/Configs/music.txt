@@ -83,7 +83,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Cradle of Filth - Nymphetamine Fix.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Rammstein - 《WOLLT IHR DAS BETT IN FLAMMEN SEHEN》.wma
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Korn-Creep_(Live_At_MTV_Studio,_NYC,_2006).flac
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Caprice In A Minor (Luka Turilli).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Queen Of The Night (Angelica).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/小雨乐队 - 雾山归途.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Pantera - Cemetery Gates.mp3
@@ -91,7 +90,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Marcel Coenen - Race Against Time.MP3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Ride Of The Valkyries (Evil Masquerade).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Symphony No.9 (Therion).mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/虚极乐队 - 莩甲（器乐）.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Cradle of Filth - Hallowed Be Thy Name.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Nachtblut - Kreuzigung.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/但丁之舟 - Way of Your Life.mp3
@@ -180,13 +178,11 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Toccata (Trans-Siberian Orchestra).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Montagues & Capulets (Epica).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/Nachtblut - Intro - intro.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/lamb_of_god-forgotten_(lost_angels).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/George_Lynch_Dee_Snider_Bob_Kulick_Jeff_Pilson_Jason_Bonham-Wasted_Years_(Album_Version).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Metal&QuickShot/萨满 - Jig.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Edward Box - plectrumhead-So Glad.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Jeff Golub -  Mister Magic.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/John 5 _ Behind the Nut Love.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Joe Satriani - I Believe.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Jeff Golub -  Till We Meet Again.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Neil Zaza - jenny' song.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Joe Satriani - Surfing With The Alien.mp3
@@ -257,7 +253,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/惘闻 - 污水塘.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/MOBY -EVER LOVING.wma
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Larry Carlton - Sapphire Blue - Just an Excuse.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Larry Carlton - Sapphire Blue - Friday Night Shuffle.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/Joe Satriani - One Big Rush.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Solo&Instrumental&FingerStyle/景德镇文艺复兴 - 云难终章 下·降.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Roger McGuinn - King Of The Hill.mp3
@@ -474,7 +469,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Ed Bruce - The Greatest Hit.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Ed Bruce - When You Fall in Love Everything's a Waltz.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Eagles - Peaceful Easy Feeling.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Leonard Cohen - Boogie Street.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Country_Joe_McDonald-Fantasy.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Bob Dylan - Forever Young.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/John Sebastian - You Go Your Way And I'll Go Mine.mp3
@@ -597,7 +591,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Don Williams - Heart Of Hearts.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Tom Waits - Rosie.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Neil Young & Crazy Horse - Prime Of Live For Promotie Only 1994.flac
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/The Velvet Underground - Candy Says.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/The Allman Brothers Band - Midnight Blues.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Creedence Clearwater Revival - Lodi.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Don Williams - Say It Again .mp3
@@ -672,7 +665,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Ed Bruce - The Feel of Bein' gone .mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Creedence_Clearwater_Revival-I_Heard_It_Through_the_Grapevine.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/The Beatles - The Ballad Of John And Yoko.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/The_Tragically_Hip-Blow_At_High_Dough.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/The Beach Boys - Sloop John B.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Bob Dylan - Standing in the Doorway .mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Country&Original-Sound/Eagles - Take It To The Limit.mp3
@@ -694,10 +686,8 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/诱导社 - 被捆绑的灵魂.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Nobody Knows - SMZB.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/JoySide - Too Fast To Love [mqms2].flac
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Business-One_Common_Voice.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/另一种意见 - 说对的是你说错的还是你.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/THE BLUE HEARTS - 僕の右手.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Celtic_Fire-Alba.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/诱导社 - 光明街.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - Sheena Is a Punk Rocker.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The Clash - Complete Control.mp3
@@ -718,10 +708,8 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/脑浊 - 8899.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/过失 - VOICE OF THE PEOPLE.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - Slug (Demo).mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Celtic_Fire-The_Glory_the_Innocence.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/诱导社 - 新疆村.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/China Sky - SMZB.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Celtic_Fire-Tenement.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Street Dogs - Free.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The Business - No One Likes Us.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Blyth Power - Better To Bat.mp3
@@ -746,7 +734,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - Bye Bye Baby.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/JoySide - Silly Girl [mqms].mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - She's A Sensation.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Celtic_Fire-Lament.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/JoySide - Booze At Dawn [mqms2].flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Celtic_Fire-Let_the_River_Flow.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Green Day - 21 Guns.mp3
@@ -767,19 +754,15 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/过失 - New Generation Genocide.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/诱导社 - 礼拜天.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/THE BLUE HEARTS - 青空.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/生命之饼 - Chinese Music.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/脑浊 - Give Me the Cash.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Green Day-American Idiot.wma
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/JoySide - Lover D [mqms2].flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/69乐队 - 青春 [mqms2].flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones Red Hot Chili Peppers - Havana Affair.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/地下婴儿 - 简单.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - I Don't Care (Single Version).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - When I Was Young.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/THE BLUE HEARTS - 終わらない歌.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The Scientists - Pissed On Another Planet.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - Here Today, Gone Tomorrow.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - I Don't Care.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/等待那一天.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/贻笑大方.wav
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Celtic_Fire-With_a_Kiss.flac
@@ -787,7 +770,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/JoySide - Dong Dong Dong [mqms2].flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - Cretin Hop.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/Ramones - 7-11.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/The_Celtic_Fire-Stories_for_Boys.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/诱导社 - 也许.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/败犬 - 最后的自由.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Punk&Ska/JoySide - Our Of Time [mqms2].flac
@@ -819,7 +801,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Jimmy_Cliff-Sitting_in_Limbo.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Santana - . Put Your LlghtsI On.MP3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Stevie_Ray_Vaughan-Slip_Slidin_Slim.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/The_Dirty_Shames-I_Don't_Care.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Pure Prairie League - Dance.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/B.B. King - Why I Sing the Blues.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Ray Charles - Hit the Road Jack.mp3
@@ -880,7 +861,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Bob Dylan - Duquesne Whistle.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Jimi Hendrix - Purple Haze.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Stevie Ray Vaughan Double Trouble - Pride and Joy.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Status Quo - Looking Out For Caroline.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Tom Waits - Fumblin' With The Blues.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Eric Clapton - Me And Mr Johnson - Love In Vain -.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Howlin' Wolf - Spoonful.mp3
@@ -919,7 +899,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/The_Mynah_Birds-I'll_Wait_Forever.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/twenty four hours.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/The_Allman_Brothers_Band-Statesboro_Blues_(Live_At_The_Fillmore_East_1971).mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Various.Artists- Grant Green - Corcovado (Quiet Nights).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/B.B. King - Guess Who.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/carol.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Jerry Lee Lewis - Great Balls Of Fire.mp3
@@ -1027,7 +1006,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Johnny Winter - Can't Hold Out (Talk To Me Baby) (With Ben Harper).flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Barrett Strong - Money (That's What I want).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Buddy Guy -  my time after awhile (buddy guy).mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Eric Clapton - Me And Mr Johnson - Come On In My Kitchen -.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/B.B. King - Never trust a woman.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/Cream-Lawdy_Mama_(Version_2).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Blues&Reggae&Funky&Jazz/BB King - 'Into The Night'.mp3
@@ -1067,7 +1045,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/邓丽君-东山飘雨西山晴.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/郑钧 - 商品社会.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/谢天笑 - 雁栖湖.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/五条人 - 道山靓仔.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/郑钧 - 赤裸裸 (Acoustic Version) - unplug.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/1_本地生活- Local Life(小样demo).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/黑薄荷乐队 - 红男绿女.mp3
@@ -1097,9 +1074,7 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/王宝与正午阳光 - 正午阳光.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/与人 - 体制反对暴力.MP3.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/石磊4ROCK - 上头歌.flac
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/罗大佑 - 未来的主人翁.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/声音碎片 - 致我的迷茫兄弟.flac
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/黄色潜水艇 - 冒险岛.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/五条人 - 十年水流东，十年水流西.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/赵雷 - 凌晨计程车.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/伍佰-世界第一等.flac
@@ -1149,7 +1124,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/罗大佑 - 我所不能了解的事 (Live版).flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/天堂乐队 - 东直门天天向上.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/赵雷 - 程艾影.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/痛仰乐队 - 哈利路亚.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/二八恋曲-子曰.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/郑钧 - 1 3理想.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/刘冬虹与沙子乐队 - 一个早已成为童话的世界.mp3
@@ -1165,7 +1139,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/废墟乐队 - 生命赞歌 .flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/腰乐队 - 不只是南方.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/黄色潜水艇 - 别让我孤单.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/本地生活- Local Life(小样demo).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/法茹克 - 墙上写的字.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/Los Crasher - 浪心2021.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/梅卡德尔 - 死亡与堕落.mp3
@@ -1182,7 +1155,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/What Will Be-李寿泉.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/腰乐队 - 高山下的花环.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/野外合作社 - 明天.flac
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/黄色潜水艇 - 昨天.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/李志 - 回答.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/脏手指 - 便衣警察 [mqms2].mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/乐园里 - 喝醉正是好时候.mp3
@@ -1207,8 +1179,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/张楚 - 孤独的人是可耻的.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/汪峰 - 硬币.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/与人 - 新十字军军歌.MP3.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/痛仰乐队 - 点石成金 [mqms2].mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/五条人 - 走鬼.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/李志 - 这个世界会好吗 (相信未来版).flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/狄奥尼索斯 - 都市丛林.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/许飞 - 父亲写的散文诗(时光版).flac
@@ -1225,7 +1195,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/天堂乐队 - 星期天.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/Howie Lee - 何勇 - 钟鼓楼 (Howie Lee Edit).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/胡德夫 - 美麗島.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/齐豫 - 青夢湖.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/败犬乐队 - 消失在这个世界（钢琴版）.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/痛仰乐队 - 为你唱首歌.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/齐豫 - 橄欖樹.mp3
@@ -1317,7 +1286,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/狗毛 - 暂时离开家的男子.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/相对-子曰.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/飘乐队 - 阳光灿烂的夜里.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/赵雷 - 署前街少年.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Chinese/郑智化-中产阶级.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/MusicSumForHandle/Damis Chanbres/07 - 曲目 7.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/MusicSumForHandle/Damis Chanbres/01 - 曲目 1.mp3
@@ -1424,7 +1392,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Kent_Beatrice_Eli-Godhet.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/U2 - New Year's Day.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Kent-Things_She_Said.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/R.E.M - . Drive.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Кино - Когда твоя девушка больна.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Dire Straits - Ticket To Heaven.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Queensrÿche-Revolution_Calling_(Remastered_2003).mp3
@@ -1562,7 +1529,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/U2 - WHEN I LOOK AT THE WORLD.wma
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Kiss-I_Can't_Stop_The_Rain.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Sting & The Police - . Walking on The Moon.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Del_Amitri-Out_Falls_The_Past.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Pretenders - Stop Your Sobbing.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/REO Speedwagon - Take It on the Run.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Live-Lightning_Crashes.mp3
@@ -1587,12 +1553,9 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/REO Speedwagon - In Your Letter.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Genesis - Back In NYC (2008 Digital Remaster).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Eagles - My Man.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Chris_Pérez_Band-¿Por_Qué_Te_Fuiste？.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/U2 - WILD HONEY.wma
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Eagles - The Long Run.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Echo & the Bunnymen - Nothing Lasts Forever.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/R.E.M - . Ignoreland.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Sgt. Pepper's Lonely Hearts Club Band (Take 9 And Speech).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Prince - Purple Rain.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The_Cranberries-Cordell.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/U2 - Stuck In A moment You can't Get Out of.wma
@@ -1662,7 +1625,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The_Libertines-Road_To_Ruin.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Pretenders-My_City_Was_Gone_(Re-mastered_for_'Pirate_Radio').mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Crosby,_Stills,_Nash__Young-Woodstock.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Eric Clapton -She's waiting.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Del_Amitri-Hatful_Of_Rain.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The Shirelles - Will You Love Me Tomorrow.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The Stone Roses - Made Of Stone.flac
@@ -1749,7 +1711,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/James.Blunt-Wiseman.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/REO Speedwagon - Can't Fight This Feeling.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/U2 - NEW YORK.wma
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/安全地帯 - ワインレッドの心.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The_Grease_Band-Jesse_James.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The_Cranberries-Animal_Instinct.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/U2 - Sunday Bloody Sunday.mp3
@@ -1765,7 +1726,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Kent-Pärlor.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Maroon 5 - I Shall Be Released.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/REO Speedwagon - Keep on Loving You.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The Velvet Underground - Beginning To See The Light.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Camel-Refugee.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Brook Benton - Rainy Night in Georgia.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The Beatles - Something.mp3
@@ -1808,7 +1768,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/My_Morning_Jacket-Outta_My_System.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Queen-The_Show_Must_Go_On.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Bob Dylan - Days of '49.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Mr.Children - Tomorrow Never Knows.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Pulp-Something_Changed.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Aphrodite's Child - Spring, Summer, Winter and Fall.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Bob Weir - Too Many Losers.mp3
@@ -1827,7 +1786,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Pulp-Bar_Italia.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Belle & Sebastian - Suicide Girl.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Blondie - Call Me.mp3
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/My_Morning_Jacket-Circuital.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Blur-Ong_Ong.flac
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Mike_Ness-A_Thief_In_The_Night.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Phish-Piggies.mp3
@@ -1839,7 +1797,6 @@
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Red hot Chili Peppers -I Could Die For You.wma
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Queensrÿche-Operation_Mindcrime_(Remastered_2003).mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Kent - Vi är inte längre där.flac
-/run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/The Byrds - I'll Feel A Whole Lot Better.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/james_blunt-wiseman.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/GALA - Young For You.mp3
 /run/user/1000/gvfs/mtp:host=SAMSUNG_SAMSUNG_Android_RF8N50HN44N/SD 卡/音乐/Classic-Rock&&Popular/Neal Schon - Turnaround.mp3

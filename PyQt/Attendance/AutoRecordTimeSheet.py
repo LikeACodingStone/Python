@@ -118,11 +118,11 @@ def getLockSceecnList():
     return lockScreenList
 
 def getLatestMonthList():
-    lockScreenList = getLockSceecnList()
-    shutDownList = getShutDownMonthList()
-    for lockTime in lockScreenList:
-        print(lockTime)
+    # lockScreenList = getLockSceecnList()
+    # for lockTime in lockScreenList:
+    #     print(lockTime)
         #shutDownList.append(lockTime)
+    shutDownList = getShutDownMonthList()
     mapLatest = {}
     for tmList in shutDownList:
         if tmList[2] in mapLatest:
@@ -141,7 +141,7 @@ def getLatestMonthList():
             maxTmMiniutes = 0
             for tmVale in keyTime:
                 tmMinutes = int(tmVale[3]) *60 + int(tmVale[4])
-                if int(tmVale[3]) > 15 and int(tmVale[3]) < 21:
+                if int(tmVale[3]) > 15 and int(tmVale[3]) < 24:
                     if tmMinutes > maxTmMiniutes:
                         maxTmMiniutes = tmMinutes
                         mothDataMapLateNew[keyDate] = tmVale
@@ -168,6 +168,8 @@ def ControlManage():
         insertList.append(wakeupTime)
         if date in sortedLateMonthData:
             deadTmList = sortedLateMonthData[date]
+            if len(deadTmList) == 1:
+                deadTmList = deadTmList[0]
             deadTime = deadTmList[3] + ":" + deadTmList[4]          
             insertList.append(deadTime)   
             del sortedLateMonthData[date]

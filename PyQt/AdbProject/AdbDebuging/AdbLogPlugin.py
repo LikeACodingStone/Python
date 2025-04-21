@@ -1,5 +1,4 @@
 import sys, os
-import ctypes
 import subprocess
 import tkinter as tk
 import threading
@@ -147,5 +146,8 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     minWin = QtWidgets.QMainWindow()
     adbPlug = AdbLogPlugin(minWin)
+    # timer_thread = TimerThread()
+    # timer_thread.start()
+    #adbPlug.threadStartTimer()
     minWin.show()
     sys.exit(app.exec_())

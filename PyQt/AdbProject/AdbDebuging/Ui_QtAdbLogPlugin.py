@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_QtAdbLogPlugin(object):
     def setupUi(self, QtAdbLogPlugin):
         QtAdbLogPlugin.setObjectName("QtAdbLogPlugin")
-        QtAdbLogPlugin.resize(869, 61)
+        QtAdbLogPlugin.resize(874, 389)
         QtAdbLogPlugin.setAutoFillBackground(False)
         QtAdbLogPlugin.setStyleSheet("background-color: rgb(145, 145, 216);")
         self.centralwidget = QtWidgets.QWidget(QtAdbLogPlugin)
@@ -36,6 +36,9 @@ class Ui_QtAdbLogPlugin(object):
         self.btnExit = QtWidgets.QPushButton(self.centralwidget)
         self.btnExit.setGeometry(QtCore.QRect(780, 10, 81, 41))
         self.btnExit.setObjectName("btnExit")
+        self.edtLog = QtWidgets.QTextEdit(self.centralwidget)
+        self.edtLog.setGeometry(QtCore.QRect(10, 60, 851, 311))
+        self.edtLog.setObjectName("edtLog")
         self.btnStart = QtWidgets.QPushButton(self.centralwidget)
         self.btnStart.setGeometry(QtCore.QRect(10, 10, 71, 41))
         self.btnStart.setObjectName("btnStart")

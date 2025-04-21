@@ -15,7 +15,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(292, 128)
-        MainWindow.setStyleSheet("background: rgb(170, 170, 127);")
+        MainWindow.setStyleSheet("background: rgb(220, 220, 180);\n"
+"background-color: rgb(0, 85, 127);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton_1 = QtWidgets.QPushButton(self.centralwidget)

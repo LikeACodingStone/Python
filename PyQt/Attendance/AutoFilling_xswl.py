@@ -64,9 +64,9 @@ def AutoAttendenceQuery(MonthDataDict, xwlPath, startRow, startHCol, endHCol):
 
 def RunningQuerySheet():
     fileName = ControlManage()
-    filePath = "C:\\worksrc\\PythonCode\\" + fileName
+    filePath = "C:\\worksrc\\VSCODE_PROJ\\PythonCode\\" + fileName
     monthDict = AutoGetMonthData(filePath)
-    orgPath = "C:\\Users\\a1294.zhou\\WorkingFiles\\Doc_Images\\考勤相关\\Quefy株式会社2024年10月作業報告書(周尚軍).xlsx"
+    orgPath = "C:\\Users\\a1294.zhou\\WorkingFiles\\Doc_Images\\考勤相关\\Quefy株式会社2025年03月作業報告書(周尚軍).xlsx"
     startRow = 18
     startHCol = 9
     endHCol = 11
@@ -123,13 +123,13 @@ def RunningUniqSheet():
     fileName = ControlManage()
     filePath = "C:\\worksrc\\PythonCode\\" + fileName
     monthDict = AutoGetMonthData(filePath)
-    orgPath = "C:\\Users\\a1294.zhou\\WorkingFiles\\Doc_Images\\考勤相关\\202410_作業時間内訳表_周尚軍.xlsx"
+    orgPath = "C:\\Users\\a1294.zhou\\WorkingFiles\\Doc_Images\\考勤相关\\202411_作業時間内訳表_周尚軍.xlsx"
     startRow = 10
     workbook1 = AutoAttendenceUniq(monthDict, orgPath, startRow)
     curScriptPath = os.path.dirname(os.path.abspath(__file__))
     newXlsxName = curScriptPath + orgPath.split("\\")[-1]
     workbook1.save(newXlsxName)
 
-RunningUniqSheet()
+#RunningUniqSheet()
 
-#RunningQuerySheet()
+RunningQuerySheet()
